@@ -11,9 +11,7 @@ import {
   useColorMode,
   useColorModeValue,
 } from "@chakra-ui/react";
-import React from "react";
-
-export default function Newsletter(props: ButtonProps) {
+import React from "react";export default function Newsletter(props: ButtonProps) {
   const { colorMode } = useColorMode();
   return (
     <Box>
@@ -35,7 +33,7 @@ export default function Newsletter(props: ButtonProps) {
           </Box>
           <Box>
             <HStack>
-              
+           
               <Input
                 placeholder={"Your email address"}
                 bg={useColorModeValue("blackAlpha.100", "whiteAlpha.100")}

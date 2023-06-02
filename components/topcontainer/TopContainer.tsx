@@ -1,4 +1,3 @@
-import { LinkIcon } from "@chakra-ui/icons";
 import { Avatar, AvatarGroup, Flex, Hide, ButtonProps } from "@chakra-ui/react";
 import {
   Box,
